@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+h1 {
+  font-size: 150px;
+  margin-left: 25px;
+}
+
+.hero {
+  background-image: url(images/pexels-derice-jason-fahnkow-745824-1595232.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.header-p {
+  margin-left: 28px;
+  font-size: 35px;
+}
+
+.menu {
+  display: flex;
+  float: right;
+  margin-right: 25px;
+}
+
+.about {
+  display: flex;
+  float: right;
+  margin-right: 25px;
+}
+
+.search {
+  display: flex;
+  float: right;
+  margin-right: 25px;
+}
