@@ -1,7 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
   color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+header {
+  margin-top: 25px;
 }
 
 h1 {
@@ -20,9 +28,13 @@ h1 {
 .header-p {
   margin-left: 28px;
   font-size: 35px;
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.menu {
+.media {
   display: flex;
   float: right;
   margin-right: 25px;
@@ -34,8 +46,32 @@ h1 {
   margin-right: 25px;
 }
 
-.search {
+.contact {
   display: flex;
   float: right;
   margin-right: 25px;
+}
+
+.trailer-button {
+  background: rgb(185, 180, 180);
+  color: #fff;
+  padding: 15px 35px;
+  margin: 15px 25px;
+  border-radius: 30px;
+  border: none;
+}
+
+.web-series-button {
+  background: rgb(238, 235, 235);
+  color: #000;
+  padding: 15px 35px;
+  margin: 15px 25px;
+  border-radius: 30px;
+  border: none;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: right;
+  margin-top: 45px;
 }
