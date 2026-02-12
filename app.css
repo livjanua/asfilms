@@ -13,7 +13,7 @@ body {
 nav {
   width: 100%;
   height: fit-content;
-  background-color: #444242;
+  background-color: #1d1c1c;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul li a {
 nav ul li ul {
   display: none;
   position: absolute;
-  background: #444242;
+  background: #1d1c1c;
   font-size: 10px;
   padding: 2px 14px;
   border-radius: 0px 0px 4px 4px;
