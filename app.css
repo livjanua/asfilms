@@ -6,8 +6,12 @@
 body {
   background-color: black;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
+}
+
+header {
+  margin-bottom: 270px;
 }
 
 nav {
@@ -63,9 +67,15 @@ nav ul li ul li a:hover {
 }
 
 h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 150px;
   margin-left: 25px;
   margin-top: 55px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .hero {
@@ -92,15 +102,29 @@ h1 {
   margin: 15px 25px;
   border-radius: 30px;
   border: none;
+  transition: transform 0.3s ease;
+}
+
+.trailer-button:hover {
+  background: rgb(143, 140, 140);
+  transform: scale(1.2);
+  text-decoration: underline;
 }
 
 .web-series-button {
-  background: rgb(238, 235, 235);
-  color: #000;
+  background: rgb(211, 209, 209);
+  color: #fff;
   padding: 15px 35px;
   margin: 15px 25px;
   border-radius: 30px;
   border: none;
+  transition: transform 0.3s ease;
+}
+
+.web-series-button:hover {
+  background: rgb(192, 187, 187);
+  transform: scale(1.2);
+  text-decoration: underline;
 }
 
 .header-buttons {
