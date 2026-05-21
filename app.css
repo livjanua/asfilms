@@ -112,7 +112,7 @@ a {
 }
 
 .web-series-button {
-  background: rgb(211, 209, 209);
+  background: rgb(185, 180, 180);
   color: #fff;
   padding: 15px 35px;
   margin: 15px 25px;
@@ -122,7 +122,7 @@ a {
 }
 
 .web-series-button:hover {
-  background: rgb(192, 187, 187);
+  background: rgb(143, 140, 140);
   transform: scale(1.2);
   text-decoration: underline;
 }
