@@ -132,3 +132,8 @@ a {
   justify-content: right;
   margin-top: 45px;
 }
+
+main {
+  border-bottom: 1px solid #ddd;
+  margin: 75px;
+}
